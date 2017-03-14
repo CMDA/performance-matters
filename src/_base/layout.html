@@ -2,10 +2,19 @@
 <html lang="en">
 <head>
     {% include './app-meta.html' %}
+<script src="/assets/js/vendor/loadcss.js" ></script>
+    <link href="/assets/css/criticalCSS.css" as="style">
+        <script>
+                loadCSS('/dist/css/fonts.css');
+                loadCSS('/dist/css/bootstrap.css');
+                loadCSS('/assets/css/src/docs.css');
+        </script>
 
-    <link href="/dist/css/fonts.css" rel="stylesheet">
-    <link href="/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/src/docs.css" rel="stylesheet">
+        <noscript>
+            <link rel="preload" href="/dist/css/fonts.css" as="style">
+            <link rel="preload" href="/dist/css/bootstrap.css" as="style">
+            <link rel="preload" href="/assets/css/src/docs.css" as="style">
+        </noscript>
 
     {% block head_extra %}{% endblock %}
 </head>
@@ -16,6 +25,7 @@
 
     <script src="/assets/js/vendor/fontfaceobserver.js" ></script>
     <script src="/assets/js/vendor/nonBlockingFont.js" ></script>
+
     <script src="/assets/js/vendor/jquery.min.js"></script>
     <script src="/dist/js/bootstrap.js"></script>
     <script src="/assets/js/docs.min.js"></script>

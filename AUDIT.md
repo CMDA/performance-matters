@@ -7,6 +7,7 @@ I used http://optimizilla.com/, to compress the images. This way, the file sizes
 ## Screenshots - Chrome Development Tools
 ![Screenshot before images](./screenshots/loadingSpeed-Font.JPG "basic")
 ![Screenshot after images](./screenshots/loadingSpeed-Images.JPG "basic")
+![Screenshot after images](./screenshots/loadingSpeed-Images2.JPG "basic")
 
 
 ## Sources
