@@ -1,8 +1,9 @@
-function createCookie(name, value) {
+    function createCookie(name, value) {
         document.cookie = `${name}=${value}; path=/`;
-      }
-      var font = new FontFaceObserver('source_sans_pro');
-      font.load(null, 20000).then(function () {
+    }
+    var html = document.documentElement;
+    var font = new FontFaceObserver('source_sans_pro');
+    font.load(null, 15000).then(function () {
         document.documentElement.className += ' fonts-loaded';
         createCookie('fontsLoaded', true);
-      });
+    });
