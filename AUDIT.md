@@ -33,10 +33,10 @@ font.load(null, 30000).then(function () {
 });
 ```
 
-##Screenshots - Chrome Development Tools
+## Screenshots - Chrome Development Tools
 ![Screenshot before fonts](./screenshots/loadingSpeed-Basic.JPG "basic")
 ![Screenshot after fonts](./screenshots/loadingSpeed-Font.JPG "basic")
 
 
-##Sources
+## Sources
 - Declan Rek : cmd-preformance-matters-2017.pdf
