@@ -3,6 +3,8 @@
 ## Compressed Images 14-3-2017
 I used http://optimizilla.com/, to compress the images. This way, the file sizes are smaller and this has a possitive effect on the total load time.
 
+Afterwards, I used a compression (new npm install "compression" ), that compresses it even more. 
+
 
 ## Screenshots - Chrome Development Tools
 ![Screenshot before images](./screenshots/loadingSpeed-Font.JPG "basic")
@@ -12,3 +14,4 @@ I used http://optimizilla.com/, to compress the images. This way, the file sizes
 
 ## Sources
 - http://optimizilla.com/
+- https://www.npmjs.com/package/compression
