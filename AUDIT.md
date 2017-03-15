@@ -24,7 +24,7 @@ I changed the location of the css and js to above the fold and made the JS none 
 
 ## Screenshots - Chrome Development Tools
 ![Screenshot after images](./screenshots/loadingSpeed-GulpCriticalCSS.JPG "basic")
-![Screenshot after images](./screenshots/loadingSpeed-loadingSpeed-NonBlockingJSAndCss.JPG "basic")
+![Screenshot after images](./screenshots/loadingSpeed-NonBlockingJSAndCss.JPG "basic")
 
 
 ## Sources
