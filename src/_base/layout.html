@@ -4,16 +4,27 @@
     {% include './app-meta.html' %}
 
     <style>{% include '../dist/css/critical.css' %}</style>
-    <script>loadCSS('/dist/css/fonts.css');</script>
+    <script src="/assets/js/vendor/loadcss.min.js"></script>
+    <script defer type="text/javascript">loadCSS('/dist/css/fonts.css');</script>
     <noscript><link rel="preload" href="/dist/css/fonts.css" as="style"></noscript>
 
-    <script src="/assets/js/vendor/loadcss.min.js" defer></script>
+
     <script src="/assets/js/vendor/fontfaceobserver.js" defer></script>
     <script src="/assets/js/vendor/nonBlockingFont.js" defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" ></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
     <script src="/assets/js/docs.min.js" defer></script>
     <script src="/assets/js/ie10-viewport-bug-workaround.js" defer></script>
+
+    <script src="/assets/js/jquery.lazyload.min.js" defer></script>
+        <script defer>
+            $(function() {
+                $("img.lazy").lazyload({
+                    effect : "fadeIn"
+                });
+            });
+        </script>
 
     {% block head_extra %}{% endblock %}
 </head>
