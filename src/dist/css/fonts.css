@@ -1,7 +1,8 @@
 html {
     font-family: Arial, sans-serif;
 }
-html.fonts-loaded {
+html.fonts-loaded,
+html.fonts-loaded body {
     font-family: 'source_sans_pro', Arial, sans-serif;
 }
 

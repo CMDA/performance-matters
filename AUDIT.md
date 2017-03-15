@@ -1,17 +1,14 @@
 # AUDIT.md
 
-## Compressed Images 14-3-2017
-I used http://optimizilla.com/, to compress the images. This way, the file sizes are smaller and this has a possitive effect on the total load time.
-
-Afterwards, I used a compression (new npm install "compression" ), that compresses it even more. 
+## CDN 15-3-2017
+Replaces the local bootstrap and jquery by links to minimized files with a link. This way it will get the link form the internet and it does not have to load it himself.
 
 
 ## Screenshots - Chrome Development Tools
-![Screenshot before images](./screenshots/loadingSpeed-Font.JPG "basic")
-![Screenshot after images](./screenshots/loadingSpeed-Images.JPG "basic")
 ![Screenshot after images](./screenshots/loadingSpeed-Images2.JPG "basic")
+![Screenshot after images](./screenshots/loadingSpeed-CDN.JPG "basic")
 
 
 ## Sources
-- http://optimizilla.com/
-- https://www.npmjs.com/package/compression
+- https://www.bootstrapcdn.com/
+- https://developers.google.com/speed/libraries/

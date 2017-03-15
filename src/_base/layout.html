@@ -6,13 +6,13 @@
     <link href="/assets/css/criticalCSS.css" as="style">
         <script>
                 loadCSS('/dist/css/fonts.css');
-                loadCSS('/dist/css/bootstrap.css');
+                loadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
                 loadCSS('/assets/css/src/docs.css');
         </script>
 
         <noscript>
             <link rel="preload" href="/dist/css/fonts.css" as="style">
-            <link rel="preload" href="/dist/css/bootstrap.css" as="style">
+            <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" as="style">
             <link rel="preload" href="/assets/css/src/docs.css" as="style">
         </noscript>
 
@@ -26,8 +26,8 @@
     <script src="/assets/js/vendor/fontfaceobserver.js" ></script>
     <script src="/assets/js/vendor/nonBlockingFont.js" ></script>
 
-    <script src="/assets/js/vendor/jquery.min.js"></script>
-    <script src="/dist/js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/assets/js/docs.min.js"></script>
     <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
     {% block scripts_extra %}{% endblock %}
