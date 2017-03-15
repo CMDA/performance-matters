@@ -1,14 +1,12 @@
 # AUDIT.md
 
-## CDN 15-3-2017
-Replaces the local bootstrap and jquery by links to minimized files with a link. This way it will get the link form the internet and it does not have to load it himself.
-
+## Gulp Images 15-3-2017
+I used Gulp to get the images and minimise them and send them back to the server.
 
 ## Screenshots - Chrome Development Tools
-![Screenshot after images](./screenshots/loadingSpeed-Images2.JPG "basic")
 ![Screenshot after images](./screenshots/loadingSpeed-CDN.JPG "basic")
+![Screenshot after images](./screenshots/loadingSpeed-GulpImages.JPG "basic")
 
 
 ## Sources
-- https://www.bootstrapcdn.com/
-- https://developers.google.com/speed/libraries/
+- https://www.npmjs.com/package/gulp-imagemin
