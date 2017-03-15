@@ -1,16 +1,13 @@
-{% extends "_base/layout.html" %}
-
-{%- block body_attributes %}class="bs-docs-home"{% endblock -%}
-
-{% block body %}
+{% extends "_base/layout.html" %} {%- block body_attributes %}class="bs-docs-home"{% endblock -%} {% block body %}
 <a class="sr-only sr-only-focusable" href="#content" id="skippy">
     <div class="container">
         <span class="skiplink-text">Skip to main content</span>
-    </div></a> <a class="v4-tease" href="https://v4-alpha.getbootstrap.com/">Aww yeah, Bootstrap 4 is coming!</a>
+    </div>
+</a> <a class="v4-tease" href="https://v4-alpha.getbootstrap.com/">Aww yeah, Bootstrap 4 is coming!</a>
 <header class="bs-docs-nav navbar navbar-static-top" id="top">
     <div class="container">
         <div class="navbar-header">
-            <button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="../">Bootstrap</a>
+            <button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>            <a class="navbar-brand" href="../">Bootstrap</a>
         </div>
         <nav class="collapse navbar-collapse" id="bs-navbar">
             <ul class="nav navbar-nav">
@@ -60,7 +57,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <picture>
-                  <source srcset="/dist/img/sass-less.webp" type="image/webp">
+                    <source srcset="/dist/img/assets/img/sass-less.webp" type="image/webp">
                     <img alt="Sass and Less support" class="img-responsive" src="/assets/img/sass-less.png">
                 </picture>
                 <h3>Preprocessors</h3>
@@ -68,7 +65,7 @@
             </div>
             <div class="col-sm-4">
                 <picture>
-                  <source srcset="/dist/img/devices.webp" type="image/webp">
+                    <source srcset="/dist/img/assets/img/devices.webp" type="image/webp">
                     <img alt="Responsive across devices" class="img-responsive" src="/assets/img/devices.png">
                 </picture>
                 <h3>One framework, every device.</h3>
@@ -76,8 +73,8 @@
             </div>
             <div class="col-sm-4">
                 <picture>
-                  <source srcset="/dist/img/components.webp" type="image/webp">
-                  <img alt="Components" class="img-responsive" src="/assets/img/components.png">
+                    <source srcset="/dist/img/assets/img/components.webp" type="image/webp">
+                    <img alt="Components" class="img-responsive" src="/assets/img/components.png">
                 </picture>
                 <h3>Full of features</h3>
                 <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
@@ -96,32 +93,32 @@
             <div class="col-xs-6 col-sm-3">
                 <a href="http://expo.getbootstrap.com/2014/10/29/lyft/" target="_blank" title="Lyft">
                     <picture>
-                      <source srcset="/dist/img/expo-lyft.webp" type="image/webp">
-                      <img src="/assets/img/expo-lyft.jpg" alt="Lyft!" class="img-responsive">
+                        <source srcset="/dist/img/assets/img/expo-lyft.webp" type="image/webp">
+                        <img src="/assets/img/expo-lyft.jpg" alt="Lyft!" class="img-responsive">
                     </picture>
                 </a>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <a href="http://expo.getbootstrap.com/2014/09/30/vogue/" target="_blank" title="Vogue">
                     <picture>
-                      <source srcset="/dist/img/expo-vogue.webp" type="image/webp">
-                      <img alt="Vogue" class="img-responsive" src="/assets/img/expo-vogue.jpg">
+                        <source srcset="/dist/img/assets/img/expo-vogue.webp" type="image/webp">
+                        <img alt="Vogue" class="img-responsive" src="/assets/img/expo-vogue.jpg">
                     </picture>
                 </a>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <a href="http://expo.getbootstrap.com/2014/03/13/riot-design/" target="_blank" title="Riot Design">
                     <picture>
-                      <source srcset="/dist/img/expo-riot.webp" type="image/webp">
-                      <img alt="Riot Design" class="img-responsive" src="/assets/img/expo-riot.jpg">
+                        <source srcset="/dist/img/assets/img/expo-riot.webp" type="image/webp">
+                        <img alt="Riot Design" class="img-responsive" src="/assets/img/expo-riot.jpg">
                     </picture>
                 </a>
             </div>
             <div class="col-xs-6 col-sm-3">
                 <a href="http://expo.getbootstrap.com/2014/02/12/newsweek/" target="_blank" title="Newsweek">
                     <picture>
-                      <source srcset="/dist/img/expo-newsweek.webp" type="image/webp">
-                      <img alt="Newsweek" class="img-responsive" src="/assets/img/expo-newsweek.jpg">
+                        <source srcset="/dist/img/assets/img/expo-newsweek.webp" type="image/webp">
+                        <img alt="Newsweek" class="img-responsive" src="assets/img/expo-newsweek.jpg">
                     </picture>
                 </a>
             </div>
@@ -146,7 +143,7 @@
                 <a href="../about/">About</a>
             </li>
         </ul>
-        <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://twitter.com/fat" target="_blank">@fat</a>. Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
+        <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://twitter.com/fat" target="_blank">@fat</a>. Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a>            with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
         <p>Code licensed <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" rel="license" target="_blank">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" rel="license" target="_blank">CC BY 3.0</a>.</p>
     </div>
 </footer>
