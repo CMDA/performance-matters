@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     {% include './app-meta.html' %}
-<script src="/assets/js/vendor/loadcss.js" ></script>
-    <link href="/assets/css/criticalCSS.css" as="style">
+    <script src="/assets/js/vendor/loadcss.js" ></script>
+    <!-- <link href="/assets/css/criticalCSS.css" as="style"> -->
+    <style>{% include '../dist/css/critical.css' %}</style>
         <script>
                 loadCSS('/dist/css/fonts.css');
-                loadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
-                loadCSS('/assets/css/src/docs.css');
+                // loadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+                // loadCSS('/assets/css/src/docs.css');
         </script>
 
         <noscript>
             <link rel="preload" href="/dist/css/fonts.css" as="style">
-            <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" as="style">
-            <link rel="preload" href="/assets/css/src/docs.css" as="style">
+            <!-- <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" as="style"> -->
+            <!-- <link rel="preload" href="/assets/css/src/docs.css" as="style"> -->
         </noscript>
 
     {% block head_extra %}{% endblock %}
@@ -22,6 +23,7 @@
 <body {% block body_attributes %}{% endblock %}>
 
     {% block body %}{% endblock %}
+    <!-- <script src="/assets/js/gulpScripts.js" ></script> -->
 
     <script src="/assets/js/vendor/fontfaceobserver.js" ></script>
     <script src="/assets/js/vendor/nonBlockingFont.js" ></script>
