@@ -4,10 +4,9 @@
     {% include './app-meta.html' %}
 
     <style>{% include '../dist/css/critical.css' %}</style>
-
-    <!-- <script defer type="text/javascript">loadCSS('/dist/css/fonts.css');</script> -->
-    <noscript><link rel="preload" href="/dist/css/fonts.css" as="style"></noscript>
     <script defer src="/assets/js/vendor/loadcss.min.js"></script>
+    <noscript><link rel="preload" href="/dist/css/fonts.css" as="style"></noscript>
+
 
     <script src="/assets/js/vendor/fontfaceobserver.js" defer></script>
     <script src="/assets/js/vendor/nonBlockingFont.js" defer></script>
@@ -18,22 +17,14 @@
     <script src="/assets/js/ie10-viewport-bug-workaround.js" defer></script>
 
     <script src="/assets/js/jquery.lazyload.min.js" defer></script>
-        <script defer>
-            $(function() {
-                $("img.lazy").lazyload({
-                    threshold : 200
-                    effect : "fadeIn"
-                });
-            });
-        </script>
-
+    <!-- <script src="/assets/js/gulpScripts.js" defer></script> -->
     {% block head_extra %}{% endblock %}
 </head>
 
 <body {% block body_attributes %}{% endblock %}>
 
     {% block body %}{% endblock %}
-    <!-- <script src="/assets/js/gulpScripts.js" ></script> -->
+
 
 
     {% block scripts_extra %}{% endblock %}
