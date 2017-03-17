@@ -1,7 +1,6 @@
 html {
     font-family: 'source_sans_pro', sans-serif;
 }
-
 @font-face {
     font-family: 'source_sans_pro';
     src: url('/dist/fonts/sourcesanspro-it.woff2') format('woff2'),
@@ -9,7 +8,6 @@ html {
     font-weight: 400;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'source_sans_pro';
     src: url('/dist/fonts/sourcesanspro-light.woff2') format('woff2'),
@@ -17,7 +15,6 @@ html {
     font-weight: 300;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'source_sans_pro';
     src: url('/dist/fonts/sourcesanspro-lightit.woff2') format('woff2'),
@@ -25,7 +22,6 @@ html {
     font-weight: 300;
     font-style: italic;
 }
-
 @font-face {
     font-family: 'source_sans_pro';
     src: url('/dist/fonts/sourcesanspro-regular.woff2') format('woff2'),

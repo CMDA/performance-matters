@@ -2,11 +2,19 @@
 <html lang="en">
 <head>
     {% include './app-meta.html' %}
+    {% include './critical.html' %}
 
-    <link href="/dist/css/fonts.css" rel="stylesheet">
-    <link href="/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/css/src/docs.css" rel="stylesheet">
-
+    <script src="/assets/js/vendor/loadcss.min.js"></script>
+    <script type="text/javascript">
+        loadCSS('/dist/css/fonts.css');
+        loadCSS('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+        loadCSS('/assets/css/src/docs.min.css');
+    </script>
+    <noscript>
+        <link href="/dist/css/fonts.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="/assets/css/src/docs.min.css" rel="stylesheet">
+    </noscript>
     {% block head_extra %}{% endblock %}
 </head>
 
